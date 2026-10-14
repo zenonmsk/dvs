@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đang tải ứng dụng...</title>
+    
+    <!-- Dự phòng chuyển hướng bằng thẻ meta nếu JavaScript bị tắt -->
+    <meta http-equiv="refresh" content="0; url=https://g8db97702d8990e-sgcdev.adb.ap-singapore-1.oraclecloudapps.com/ords/r/sgc-dev/dvs/trang-chu?tz=Asia/Saigon;7:00" />
+
+    <script>
+        // Link đích "sạch" không chứa tham số của Zalo
+        var cleanApexUrl = "https://g8db97702d8990e-sgcdev.adb.ap-singapore-1.oraclecloudapps.com/ords/r/sgc-dev/dvs/trang-chu?tz=Asia/Saigon;7:00";
+        
+        // Hàm replace() giúp chuyển trang mà không lưu lại trang trung gian trong lịch sử trình duyệt (nút Back)
+        window.location.replace(cleanApexUrl);
+    </script>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; padding-top: 50px;">
+    <p>Đang chuyển hướng đến ứng dụng, vui lòng đợi trong giây lát...</p>
+</body>
+</html>
